@@ -1,0 +1,24 @@
+{
+  "name": "hist-gmail-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder"
+  },
+  "author": "bigzero",
+  "license": "ISC",
+  "build": {
+    "productName": "Hist GSuite WebApp",
+    "appId": "HistGMail",
+    "afterPack": "./removeLocales.js",
+    "win" : {
+      "icon": "assets/icons/png/gmail-icon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^9.1.2",
+    "electron-builder": "^22.8.0"
+  }
+}
