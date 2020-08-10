@@ -7,6 +7,9 @@ function createWindows() {
     win = new BrowserWindow({ 
         width: 1280
         , height: 800
+        , webPreferences: {
+            nodeIntegration: false
+        }
         // , icon: path.join(__dirname, 'assets/icons/win/gmail-icon.png')
         // , icon: 'gmail-icon.png'
     });

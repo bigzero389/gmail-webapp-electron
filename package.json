@@ -1,6 +1,6 @@
 {
   "name": "hist-gmail-webapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "productName": "Hist GSuite WebApp",
     "appId": "HistGMail",
     "afterPack": "./removeLocales.js",
-    "win" : {
+    "win": {
       "icon": "assets/icons/png/gmail-icon.png"
     }
   },
