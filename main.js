@@ -13,7 +13,7 @@ function createWindows() {
         // , icon: path.join(__dirname, 'assets/icons/win/gmail-icon.png')
         // , icon: 'gmail-icon.png'
     });
-    win.loadURL(`https://mail.google.com/a/hist.co.kr`);
+    win.loadURL(`https://mail.google.com`);
     win.on("closed", () => { win = null; });
 
     win.setIcon(path.join(__dirname, '/assets/icons/png/gmail-icon.png'));
